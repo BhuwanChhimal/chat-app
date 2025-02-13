@@ -45,7 +45,7 @@ export const sendMessage = async(req,res) =>{
             imageUrl = uploadReponse.secure_url
         }
 
-        const newMessage = newMessage ({
+        const newMessage = new Message ({
             senderId,
             receiverId,
             text,
