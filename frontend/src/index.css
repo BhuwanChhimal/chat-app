@@ -7,3 +7,8 @@
     "night", "coffee", "winter", "dim", "nord", "sunset", "caramellatte",
     "abyss", "silk";
 }
+@layer components{
+  .font-funnel{
+      font-family: Funnel Display, system-ui, sans-serif ;
+  }
+}
